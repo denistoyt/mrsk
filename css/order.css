@@ -1,0 +1,103 @@
+/* passengers order */
+.order__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.orders {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 84px rgb(0 0 0 / 10%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.orders__top h2 {
+    font-size: 1.375rem;
+    border-bottom: 1px solid #ccc;
+}
+.orders__top {
+    text-align: center;
+    width: 100%;
+}
+.orders__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    text-align-last: left;
+    margin-bottom: 20px;
+    padding: 0;
+}
+input {
+    transition: all .6s ease;
+    padding: 2px 5px;
+    outline: none!important;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+select {
+    transition: all .6s ease;
+    padding: 2px 5px;
+    outline: none!important;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input:focus, input:hover {
+    outline:none;
+    border: 1px solid rgba(39, 39, 39, 0.534);
+    padding: 2px 3px;
+}
+select:focus, select:hover {
+    outline: none;
+    border: 1px solid rgba(39, 39, 39, 0.534);
+    padding: 2px 3px;
+}
+option{
+    background: #d8d9da;
+}
+option:is {
+    background: red;
+}
+.orders__content h3 {
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+}
+.orders__send {
+    width: 100%;
+}
+/* date time */
+.orders__return-time_content, .orders__order-time_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px
+}
+
+
+/* Spinner & Toast Transition */
+.toast {
+    transition: all 1.6s ease!important;
+}
+.toast__img {
+    width: 20px;
+}
+.toast__message {
+    text-align: center;
+}
+#spinnerBlock {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #d8d9dab0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}

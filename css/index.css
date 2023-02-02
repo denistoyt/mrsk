@@ -1,0 +1,42 @@
+
+/* ADMIN AUTORIZE MODAL */
+.admin__autorize__modal *{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    width: max-content;
+}
+.admin__autorize__modal__window {
+    padding: 20px;
+    text-align: center!important;
+}
+.admin__autorize__modal__submit {
+    width: 100%;
+    padding: 5px 20px;
+    border: none;
+    font-size: .875rem;
+    font-weight: 500;
+}
+/* inputs */
+.admin__autorize__form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.admin__autorize__form__input {
+    font-size: .875em;
+    outline:none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+.admin__autorize__form__input:focus {
+    outline: none;
+    border: 1px solid rgb(185, 185, 185);
+}
+.admin__page__redirect {
+    padding: 5px 20px!important;
+}
